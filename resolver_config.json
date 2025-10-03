@@ -1,0 +1,23 @@
+{
+  "web_search": {
+    "enabled": true,
+    "timeout": 15,
+    "max_results": 10,
+    "sources": ["stackoverflow", "github", "pypi"]
+  },
+  "solutions": {
+    "timeout": 300,
+    "stop_on_success": true,
+    "retry_failed": false
+  },
+  "reporting": {
+    "generate_markdown": true,
+    "generate_json": true,
+    "save_logs": true
+  },
+  "compatibility": {
+    "python_versions": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+    "pandas_versions": [">=1.5,<2.3"],
+    "numpy_versions": [">=1.21,<1.26"]
+  }
+}
