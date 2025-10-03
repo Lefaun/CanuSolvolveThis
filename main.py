@@ -18,7 +18,7 @@ from docx import Document
 import PyPDF2
 import fitz  # PyMuPDF - alternative PDF library
 from duckduckgo_search import DDGS
-import google.generativeai as genai
+#import google.generativeai as genai
 import os
 
 # Initialize database with enhanced tables
