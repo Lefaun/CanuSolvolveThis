@@ -2,7 +2,7 @@
 # Pandas Build Resolver - Installation Script
 
 echo "🐼 Installing Pandas Build Resolver..."
-
+pip install --only-binary=all pandas==2.0.0 streamlit==1.28.0
 # Create virtual environment
 python3 -m venv pandas_resolver_env
 source pandas_resolver_env/bin/activate
