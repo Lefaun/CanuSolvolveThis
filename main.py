@@ -6,6 +6,12 @@ from datetime import datetime, timedelta
 import hashlib
 import sqlite3
 from pathlib import Path
+import requests
+from bs4 import BeautifulSoup
+import re
+import time
+from datetime import datetime
+import json
 
 # Initialize database
 def init_db():
